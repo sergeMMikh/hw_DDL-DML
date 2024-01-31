@@ -44,4 +44,9 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 - выдаел ему все права.
 - вывел список прав этого пользователя
 
-<img src="images/Task_1_4.png" alt="Task_1_4.png" width="750" height="auto">
+<img src="images/Task_1_4.png" alt="Task_1_4.png" width="500" height="auto">
+
+1.5. Здесь, на скриншоте:
+- вывел список прав этого пользователя
+
+<img src="images/Task_1_5.png" alt="Task_1_5.png" width="750" height="auto">
