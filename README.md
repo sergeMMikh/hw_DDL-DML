@@ -56,3 +56,13 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 - проверил результат.
 
 <img src="images/Task_1_6.png" alt="Task_1_5.png" width="500" height="auto">
+
+1.7. Восстановил дамп в базу данных sakila.
+
+1.8. Сформирал в DBeaver ER-диаграмму получившейся базы данных и немного причесал отношения, что имеют зависимости. 
+
+<img src="images/Task_1_8.png" alt="Task_1_8.png" width="500" height="auto">
+
+Скришот выполнения команды для получения всех таблиц базы данных в командной строке.
+
+<img src="images/Task_1_8_2.png" alt="Task_1_8_2.png" width="200" height="auto">
