@@ -66,3 +66,22 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Скришот выполнения команды для получения всех таблиц базы данных в командной строке.
 
 <img src="images/Task_1_8_2.png" alt="Task_1_8_2.png" width="200" height="auto">
+
+---
+
+### Задание 2
+Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
+```
+Название таблицы | Название первичного ключа
+customer         | customer_id
+```
+
+**Решение**
+
+Скришот выполнения команды 
+```
+SELECT TABLE_NAME, COLUMN_NAME FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'sakila' AND COLUMN_KEY = 'PRI' ORDER BY table_name;
+```
+
+<img src="images/Task_2.png" alt="Task_2.png" width="200" height="auto">
+
