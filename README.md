@@ -38,3 +38,10 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.3. Запрос на получение списка пользователей в базе данных.
 
 <img src="images/Task_1_3.png" alt="Task_1_3.png" width="250" height="auto">
+
+1.4. Здесь, на скриншоте:
+- проверил права для пользователя sys_temp.
+- выдаел ему все права.
+- вывел список прав этого пользователя
+
+<img src="images/Task_1_4.png" alt="Task_1_4.png" width="750" height="auto">
