@@ -34,3 +34,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 1.2 Создал учётную запись sys_tempo:
 
 <img src="images/Task_1_2.png" alt="Task_1_2.png" width="500" height="auto">
+
+1.3. Запрос на получение списка пользователей в базе данных.
+
+<img src="images/Task_1_3.png" alt="Task_1_3.png" width="250" height="auto">
